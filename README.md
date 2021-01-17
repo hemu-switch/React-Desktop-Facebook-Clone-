@@ -1,3 +1,5 @@
+See deployed version for desktop here https://fb-clone-eb2c5.web.app plese open it in desktop/laptop as it is not responsive yet
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
