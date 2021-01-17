@@ -7,15 +7,14 @@ import ChatIcon from '@material-ui/icons/Chat';
 import StorefrontIcon from '@material-ui/icons/Storefront';
 import VideoLibraryIcon from '@material-ui/icons/VideoLibrary';
 import ExpandMoreOutlined from '@material-ui/icons/ExpandMoreOutlined';
+import { useStateValue } from '../StateProvider';
 import './Sidebar.css';
 
 function Sidebar() {
+  const [{ user }, dispatch] = useStateValue();
   return (
     <div className='sidebar'>
-      <SidebarRow
-        src='https://lh3.googleusercontent.com/ogw/ADGmqu87HjXeJgcv2ixsUZqa0O9htPkhRhNKrRcRvrGdZg=s32-c-mo'
-        title='Hemraj'
-      />
+      <SidebarRow src={user.photoURL} title={user.displayName} />
       <SidebarRow
         Icon={LocalHospitalIcon}
         title='Covid-19 Information Centre'
