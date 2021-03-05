@@ -1,4 +1,4 @@
-See deployed version for desktop here https://fb-clone-eb2c5.web.app plese open it in desktop/laptop as it is not responsive yet
+See deployed version for desktop here https://fb-clone-eb2c5.web.app please open it in desktop/laptop as it is not responsive yet
 
 # Getting Started with Create React App
 
